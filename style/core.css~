@@ -1,0 +1,393 @@
+/* @group Core */
+
+.pagelayout-frontpage,
+.pagelayout-incourse,
+.pagelayout-general,
+.pagelayout-course,
+.pagelayout-coursecategory,
+.pagelayout-admin,
+.pagelayout-mydashboard,
+.pagelayout-mypublic,
+.pagelayout-login,
+.pagelayout-report {
+
+}
+
+body,h4,h5,h6,p,ul,ol,dl,input,textarea {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+}
+
+h1,h2,h3{
+    color: #00588a;
+}
+
+
+
+.block .content {
+    background: #ececec;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: -2px;
+}
+
+
+
+
+input[type="text"], input[type="textarea"], select{
+    background: #f2f2f2;
+    border: 1px solid #eaeaea;
+}
+
+button, input[type="button"], input[type="submit"]{
+    background: #00588a;
+    color: #fff;
+    font-family: trebuchet, arial;
+    padding: 0px 5px;
+    border: 1px solid #0079be;
+}
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover{
+    color: #a1ddff;
+}
+
+#wrapper {
+    background:#fff;
+    margin:0px 5% 0px 5%;
+    padding:0px;
+    max-width: 1227px;
+}
+
+
+
+#page-content-wrapper {
+    padding: 0px;
+    padding-top: 0px;
+    margin: 0px 0px 0px 10px;
+}
+.pagelayout-frontpage #page-content #region-main-box #region-post-box {
+  padding-top: 0;
+}
+
+#page-content #region-post-box {
+
+    border-right: none !important;
+
+}
+
+#region-main-box {
+    border: 0px none;
+}
+
+#newmessageoverlay {
+    background: #f9f9d4;
+    margin-left: 55px;
+    margin-top: 10px;
+    padding: 10px;
+    border-right: 2px solid #5ea4dc;
+    border-bottom: 2px solid #5ea4dc;
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+
+}
+
+#newmessageoverlay #newmessagelinks {
+    border-top: 1px dashed #ccc;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+#newmessageoverlay a {
+    font-weight: bold;
+    font-style: italic;
+}
+/* @end */
+
+/* @group Header */
+
+#page-header {
+    background:#0079be;
+    margin-bottom: 0px;
+    height: 80px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-right: 0px;
+}
+
+.headermain { 
+    font-weight:normal;
+    margin:1em 0.5em 1em;
+}
+
+h1.headermain {
+    color: #006699;
+    font-weight: normal;
+    font-size: 1.85em !important;
+    padding-left: 0px;   
+}
+h1.headerwlogo {
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.30em !important;
+    display: block;
+    float: left;
+    margin-top: 35px;
+
+}
+
+.tagline {
+    color: #006699 !important;
+    padding-top: 7px;
+    font-size: .45em;
+    text-transform: uppercase;
+}
+
+.headermenu {
+    font-size: .9em;
+}
+
+p.helplink {
+    text-align: center;
+}
+/* @end */
+
+/* @group Navbar */
+
+.navbar {
+    background: url([[pix:theme|bannerAnses_mid]]) repeat-y;
+    height: 20px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    margin-top:-1px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.breadcrumb {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9em;
+    margin-left: 7px;
+}
+
+.breadcrumb a {
+    color: #BBD363 !important;
+}
+
+.breadcrumb a:hover {
+	color: #00EEEE;
+}
+
+.breadcrumb ul {
+    color: #fff;
+}
+.arrow, .arrow_button input {
+    color: #fff;
+}
+
+/* @end */
+
+/* @group Blocks */
+
+.block_action { 
+    padding:0px;
+}
+
+
+.block .minicalendar td,
+.block .minicalendar th {
+    border: none;
+}
+
+.block {
+    border: 0px none;
+}
+
+.block .header {
+    border: 1px solid #ccc;
+    background: #bcd660;
+    padding-left:5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: trebuchet, arial;
+}
+
+.block .title h2 {
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    font-size: .95em;
+    color: #fff;
+}
+
+
+.block_calendar_month table.minicalendar.calendartable td,.block_calendar_month table.minicalendar.calendartable th {
+    border: none !important;
+}
+/* @end */
+
+/* @group Course */
+
+.headingblock { 
+    border: 0px none;
+    border-bottom: 1px solid #00588a;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    font-weight: normal;
+    color: #00588a;
+}
+
+.completionprogress {
+    color: #336699;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.course-content ul.topics li.section,
+.course-content ul.weeks li.section {
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.path-course-view li.activity {
+    border-bottom: 1px dashed #c3daf9;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* @end */
+
+/* @group Dock */
+
+body.has_dock {
+    margin:0;
+}
+
+
+#dock {
+    border-right: 0px none;
+    background: url([[pix:theme|dock]]) repeat-y top right #fff;
+}
+#dock .controls {
+    bottom:auto;
+    background-color:#5ea4dc;
+}
+
+
+#dock .dockeditem {
+    background: url([[pix:theme|dock]]) repeat-y top right #fff;
+    padding:2px;
+    padding-right:0px;
+}
+
+#dock .dockedtitle {
+    border-width:0;
+}
+
+#dock .dockedtitle h2 {
+    margin:0;
+    padding:10px 3px;
+}
+
+#dock .dockedtitle.activeitem {
+    background-color:#407ea8;
+    border-top: 1px solid #6f6856;
+}
+
+#dockeditempanel {
+    background-color:#5ea4dc;
+    margin-left:0px;
+    border-left: none;
+}
+
+#dockeditempanel .dockeditempanel_content {
+    border-color:#6f6856;
+    border-left: none;
+}
+
+#dockeditempanel .dockeditempanel_hd {
+    background: #407ea8;
+    border-width:0;
+}
+
+#dockeditempanel .dockeditempanel_hd h2 {
+    font-size:1em;
+    color:#fff;
+}
+
+/* @end */
+
+/* @group Footer */
+#page-footer{
+    padding: 10px 0 10px;
+    height: 20px;
+    clear: both;
+    margin: 0px 10px;
+    max-width: 1192px;
+
+	background-color: #005887;
+	background-image: url([[pix:theme|logo1]]);
+	background-position: center right;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-align: right;
+	padding-right: 10px;
+
+}
+
+
+
+.footnote {
+    text-align: right;
+}
+
+#page-footer .logininfo {
+    text-align: right;
+}
+/* @end */
+
+/* @group Forums */
+
+.forumpost {
+    border: 1px solid #ccc;
+    background: #98b23b;
+}
+.forumpost .left {
+    background: #98b23b;
+}
+.forumpost .header {
+    background: #98b23b;
+    color: #00588a;
+}
+.forumpost .no-overflow {
+
+}
+.forumpost .content .posting {
+    padding:4px;
+    background: #fff;
+    color: #4F4F4F;
+}
+.forumpost .options {
+    background: #FFF;
+    padding:4px;
+}
+
+
+/* @end */
+
+/* @group Custom CSS */
+
+[[setting:customcss]]
+
+/* @end */
+
+

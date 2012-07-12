@@ -1,0 +1,282 @@
+.langmenu{
+	float: right;
+	margin-bottom: -19px;
+}
+
+a{
+    color: #065e90;
+}
+
+a:hover{
+    color: #034065;
+    text-shadow: 2px 2px 8px #c0c2c0;
+filter: dropshadow(color=#c0c2c0, offx=2, offy=2);
+}
+
+
+#page-header a{
+    color: #bbd363;
+}
+
+#page-header a:hover{
+    color: #b3d247;
+}
+
+.block{
+    clear: both;
+}
+
+.block .header{
+
+
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+
+
+	background: #bbd361; /* Old browsers */
+	background: -moz-linear-gradient(top, #bbd361 0%, #8ba71e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbd361), color-stop(100%,#8ba71e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bbd361 0%,#8ba71e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bbd361 0%,#8ba71e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bbd361 0%,#8ba71e 100%); /* IE10+ */
+	background: linear-gradient(top, #bbd361 0%,#8ba71e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbd361', endColorstr='#8ba71e',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+#page-header {
+    background: url([[pix:theme|bannerAnses_top]]) no-repeat;
+    background-position: 0px 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 138px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+#header-bottom{
+    background: url([[pix:theme|bannerAnses_bottom]]) no-repeat;
+    height: 20px;
+}
+
+
+.headermenu{
+	color: #000;
+}
+
+
+.coursebox{
+	border: 1px solid #868686;
+	background: #f3f3f3; /* Old browsers */
+background: -moz-linear-gradient(top, #f3f3f3 0%, #fefefe 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f3f3f3 0%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f3f3f3 0%,#fefefe 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f3f3f3 0%,#fefefe 100%); /* IE10+ */
+background: linear-gradient(top, #f3f3f3 0%,#fefefe 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+}
+
+.coursebox .name{
+    border-bottom: solid 1px #065e90;
+
+}
+
+.coursebox .info {
+	float: right;
+	text-align: left;
+	width: 70%;
+	padding-top: 50px;
+}
+
+.coursebox .summary {
+	float: left;
+	text-align: right;
+	width: 30%;
+}
+
+.coursebox .summary .no-overflow img{
+	margin-top: 10px;
+	max-width: 125px;
+	max-height: 125px;
+}
+
+
+
+.block_calendar_month, .block_myprofile, .block_messages{
+	display: none;
+}
+
+
+.box-user-anses ul{
+	padding: 0px;
+	margin: 0px 0px 0px 5px;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.box-user-anses li{
+	display: inline;
+	float: left;
+	width:52px;
+	margin: 0px 2px;
+	
+}
+
+.box-user-anses li a{
+	text-indent: -1000px;
+	height: 72px;
+	float: left;
+	width: 100%;
+}
+
+a.box-user-mensajes{
+	background: url([[pix:theme|btn_mensajes]]) left top no-repeat;
+}
+a.box-user-perfil{
+	background: url([[pix:theme|btn_perfil]]) left top no-repeat;
+}
+a.box-user-calendar{
+	background: url([[pix:theme|btn_calendario]]) left top no-repeat;
+}
+a.box-user-helpdesk{
+	background: url([[pix:theme|btn_ayuda]]) left top no-repeat;
+}
+
+.box-user-anses li a:hover, .box-user-anses li a.active {
+	background-position: left bottom;
+}
+
+
+
+#region-post{
+	padding: 0px;
+}
+
+
+#region-main{
+	border: 1px solid silver;
+	margin-right: 10px;
+}
+
+
+.course-content .current{
+    background: #fff;
+}
+
+.tabtree{
+	margin-bottom: 0px;
+}
+
+.tabtree .tabrow0 li a{
+	-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+#custommenu{
+	margin-left: 10px;
+}
+
+
+.course-content ul.topics .tabtree{
+	margin-bottom: -23px;
+}
+
+
+.course-content ul.topics li.section, .course-content ul.weeks li.section {
+	margin-right: 0px;
+	background: #fbfbfb;
+}
+
+.no-overflow{
+	overflow: hidden;
+}
+
+.block.block_html .content {
+    background: none;
+    border: none;
+}
+
+.block.block_iconos_anses .content {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+
+#page-course-view-onetopic  .course-content h2.headingblock{
+	display: none;
+}
+
+
+
+/**
+*	 PARA LA PAGINA DE AYUDA SOLAMENTE
+*
+**/
+.titulo {
+	font-family: arial !important;
+	font-size: 12px !important;
+	font-weight: bolder !important;
+	color: #58585a !important;
+	white-space: normal !important;
+	font-style: italic !important;
+}
+.cuerpo {
+	font-family: arial !important;
+	font-size: 12px !important;
+	color: 58585a !important;
+}
+.titulo2 {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+	color: #FFF !important;
+	text-indent: 10px !important;
+}
+.fdo_recuadro {
+	background-image: url([[pix:theme|fdo_deg_ayuda_2]]);
+	background-repeat: repeat-x !important;
+	padding: 10px !important;
+	border: 1px solid #999 !important;
+}
+.lista1 {
+	list-style-image: url([[pix:theme|tip_ch1]]);
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	color: #58585a !important;
+}
+.lista2 {
+	list-style-image: url([[pix:theme|tip_ch2]]);
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	color: #58585a !important;
+}
+.lista3 {
+	list-style-image: url([[pix:theme|tip_ch3]]);
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	color: #58585a !important;
+}
+
+
+
+/* [OEF] PARA LA PAGINA DE AYUDA SOLAMENTE */
+
+.side-pre-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main {
+	overflow: auto;
+}
+
+#page-site-index .clearfloat{
+	height: auto;
+}
