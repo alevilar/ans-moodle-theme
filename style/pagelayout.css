@@ -79,7 +79,7 @@ body {
 }
 
 #page-content #region-main .region-content {
-    overflow: hidden;
+    overflow: auto;
     margin: 0px 20px 20px 20px;
     clear: both;
 }
@@ -193,9 +193,6 @@ body {
     overflow:auto;
 }
 
-#page-content #region-main .region-content{
-    overflow:visible;
-}
 
 .pagelayout-report #page-content #region-main .region-content {
     overflow:visible;

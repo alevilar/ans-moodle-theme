@@ -1,0 +1,39 @@
+<div class="box-user-anses">
+<ul>
+<li><a data-href="block_messages" href="#" class="box-user-mensajes link-user-anses active" onclick="">Mensajes</a></li>
+<li><a data-href="block_myprofile" href="#" class="box-user-perfil link-user-anses">Perfil</a></li>
+<li><a data-href="block_calendar_month" href="#" class="box-user-calendar link-user-anses">Calendario</a></li>
+<li><a data-href="block_helpdesk" href="http://anses00.moodlehub.gacq.com/mod/page/view.php?id=1" class="box-user-helpdesk">Mesa de Ayuda</a></li>
+</ul>
+</div>
+<script type="text/javascript">// <![CDATA[
+YAHOO.util.Event.onDOMReady(function(){
+
+	//YAHOO.util.Dom.setStyle(YAHOO.util.Dom.get("elementId"), "display", "none");
+	YAHOO.util.Dom.setStyle(YAHOO.util.Dom.getElementsByClassName("block_messages"), "display", "block");
+
+
+	YUI().use("node", function (Y) {
+		function esconderLosBoxes() {
+			YAHOO.util.Dom.setStyle(YAHOO.util.Dom.getElementsByClassName("block_calendar_month"), "display", "none");
+
+YAHOO.util.Dom.setStyle(YAHOO.util.Dom.getElementsByClassName("block_helpdesk"), "display", "none");
+			YAHOO.util.Dom.setStyle(YAHOO.util.Dom.getElementsByClassName("block_myprofile"), "display", "none");
+			YAHOO.util.Dom.setStyle(YAHOO.util.Dom.getElementsByClassName("block_messages"), "display", "none");	
+		}
+
+
+		Y.all(".link-user-anses").on("click", function(e){
+			e.preventDefault();
+			esconderLosBoxes();
+			var block = e.target.getAttribute("data-href");		
+			if ( block ) {
+				Y.all(".box-user-anses .active").removeClass("active");
+				e.target.toggleClass("active");
+				YAHOO.util.Dom.setStyle(YAHOO.util.Dom.getElementsByClassName(block), "display", "block");
+			}			
+		});
+
+	});
+});
+// ]]></script>
